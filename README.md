@@ -8,7 +8,7 @@ A desktop Candy Crush-style match-3 game built with C++ and SFML, featuring spec
 
 ## Description
 
-Candy Crush Saga (SFML Edition) is a fast-paced puzzle game project that recreates the classic match-3 gameplay loop in a native C++ desktop application. The game uses custom image assets, real-time rendering with SFML, and interactive mouse controls for swapping candies, triggering combos, and chasing high scores.
+Candy Crush Saga (SFML Edition) is a fast-paced match-3 puzzle game developed in C++ with SFML. The game uses custom candy assets, a themed background, and a clean side panel UI to show score, moves, and save/load actions during gameplay.
 
 ### Short Description For GitHub About
 
@@ -28,9 +28,11 @@ This project runs on a 9x9 candy grid with classic match-3 rules, special candy 
 - Save and load game state through text files
 - Custom candy and background textures
 
-## Screenshot
+## Gameplay Preview
 
-![Candy Crush Gameplay](https://github.com/user-attachments/assets/11f7c02a-2824-49e8-be20-6c881f48199a)
+Current game window preview:
+
+![Candy Crush Gameplay Window](https://github.com/user-attachments/assets/11f7c02a-2824-49e8-be20-6c881f48199a)
 
 ## Quick Start
 
