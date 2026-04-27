@@ -32,8 +32,7 @@ This project runs on a 9x9 candy grid with classic match-3 rules, special candy 
 
 Current game window preview:
 
-![Candy Crush Gameplay Window](<img width="1542" height="1006" alt="image" src="https://github.com/user-attachments/assets/cc5e53fd-78e6-49e6-b0cc-5a0c7f2610b2" />
-)
+![Candy Crush Gameplay Window](images/background/background.png)
 
 ## Quick Start
 
