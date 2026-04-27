@@ -1,0 +1,31 @@
+# Build directories
+Debug/
+Release/
+x64/
+.vs/
+
+# Visual Studio user files
+*.vcxproj.user
+*.user
+.vscode/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# IDE settings
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Any additional build artifacts
+*.obj
+*.exe
+*.lib
+*.dll
+*.pdb
