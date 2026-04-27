@@ -1,54 +1,54 @@
-# 🍭 **Candy Crush Saga - SFML Edition** 🎮✨  
+# Candy Crush Saga (SFML, C++)
 
-### 🌟 **A Mesmerizing Journey into the World of Candies!** 🍫🍬💥  
+A desktop Candy Crush-style match-3 game built with C++ and SFML.
 
-Welcome to the **most stunning Candy Crush Saga ** game ever made in **C++ & SFML**! This was my **first-ever** project, and I poured my heart into every pixel, animation, and explosion. The result? **A visually breathtaking, feature-packed, and addictive experience!** 🚀  
+## Project Overview
 
----
+This project implements a 9x9 candy board with classic match-3 gameplay, special candy generation, score tracking, move limits, and save/load support.
 
-## 🎨 **Features That Make It Unforgettable** 🌟  
+## Gameplay Features
 
-### 🍬 **Immersive Gameplay & Stunning Graphics**  
-✔️ **Custom Board Sizes** – Play on different grid sizes for a new challenge every time!  
-✔️ **Vibrant Backgrounds** – Multiple stunning backgrounds to enhance the experience.  
-✔️ **Special Candies** – Crush 3️⃣, 4️⃣, or 5️⃣ candies to create **powerful** special candies!  
-✔️ **Chocolate Candies** – Watch them spread & block your moves! 🍫  
-✔️ **Smooth Animations** – Candies swap, fall, and burst with perfect fluidity!  
+- Match-3 core mechanics on a 9x9 grid
+- Special candy creation for 4 and 5 matches
+- Additional special handling for L/T style patterns
+- Score and remaining moves display
+- Mouse-based candy selection and swapping
+- Save and load game state through text files
+- Custom candy and background textures
 
-### 🔊 **Authentic Candy Crush Soundtrack & Effects**  
-✔️ **Candy Crush Music 🎶** – The iconic game music adds nostalgia & excitement!  
-✔️ **Satisfying Sound Effects** – Every move, burst, and special candy has **realistic audio!**  
+## Screenshot
 
-### 🧠 **Engaging & Strategic Gameplay**  
-✔️ **Match-3 Mechanics** – Line up 3️⃣, 4️⃣, or 5️⃣ candies to unleash colorful destruction!  
-✔️ **Explosive Chain Reactions 💥** – Create **cascades** for massive combos!  
-✔️ **Progressive Difficulty** – The more you play, the **harder** it gets!  
-✔️ **Dynamic Effects** – Candies glow, sparkle, and **explode magnificently!**  
+![Candy Crush Gameplay](https://github.com/user-attachments/assets/11f7c02a-2824-49e8-be20-6c881f48199a)
 
----
+## Controls
 
-## 🛠️ **Tech Stack & Tools Used**  
+- Left click one candy to select it
+- Left click an adjacent candy to swap
+- Click Save Game to write the current state to save.txt
+- Click Load Game to restore state from save.txt
 
-🚀 **Language:** C++  
-🎮 **Graphics Library:** SFML  
-🎵 **Audio:** SFML Sound System (Candy Crush music)  
-📂 **File Handling:** For storing & loading game states  
+## Tech Stack
 
----
+- Language: C++
+- Graphics: SFML Graphics module
+- Data persistence: Standard file I/O (save.txt, load.txt)
 
-## 🎬 **Screenshots & Gameplay Preview**  
+## Project Structure
 
-🔹 ![tempa](https://github.com/user-attachments/assets/11f7c02a-2824-49e8-be20-6c881f48199a)
+- PF PROJECT.cpp: Game logic and rendering loop
+- functions.h: Header definitions used by the project
+- images/: Candy, background, and font assets
+- include/: SFML header files
+- lib/: SFML library files and CMake config
+- NewProject.sln / NewProject.vcxproj: Visual Studio build files
 
----
+## Build Notes (Visual Studio)
 
-## 🎮 **How to Play?**  
+1. Open NewProject.sln in Visual Studio.
+2. Select x64 and Debug (or Release).
+3. Build and run.
 
-1️⃣ **Run the game** using the compiled executable.  
-2️⃣ **Swap candies** to match 3 or more of the same kind.  
-3️⃣ **Trigger chain reactions** and **unleash special candies!**  
-4️⃣ **Score big points** and advance through different board sizes!  
-5️⃣ **Enjoy the music, effects, and smooth animations!**  
----
+## Notes
 
-🚀 **Press Start & Let the Candy Explosion Begin!** 💥🍬✨
+- This version does not include gameplay sound/audio features.
+- Keep images, include, and lib folders in place for correct asset and library resolution.
